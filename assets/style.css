@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  background: rgb(49, 49, 49);
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#health-levels {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 25vh;
+  width: 80%;
+  max-width: 600px;
+
+  background: aliceblue;
+
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#bonus-health {
+  padding: 4px;
+
+  border-radius: 10px;
+  background: rgb(255, 128, 128);
+}
+
+progress[id^="health-"] {
+  width: 80%;
+}
+
+#controls {
+  margin-top: 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background: aliceblue;
+
+  border: 2px solid black;
+  border-radius: 10px;
+
+  height: 40vh;
+  width: 80%;
+  max-width: 600px;
+}
+
+button[id^="btn-"] {
+  width: 90%;
+  height: 15%;
+
+  font-weight: bolder;
+
+  border-radius: 10px;
+
+  background: rgb(255, 128, 128);
+}
